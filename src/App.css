@@ -1,0 +1,238 @@
+.container {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7.5rem;
+}
+
+.header {
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.headerText {
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.headerTitle {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.headerDesc {
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+.headerButton {
+  background-color: #700704;
+  padding: 0.85rem 1.5rem;
+  width: fit-content;
+  border-radius: 100px;
+  color: white;
+  transition: 300ms ease;
+  text-decoration: none;
+}
+
+.headerButton:hover {
+  background-color: #B4211D;
+  transition: 300ms ease;
+}
+
+.headerImgContainer {
+  width: 50%;
+}
+
+.headerImg {
+  width: 100%;
+}
+
+.headerBottom {
+  display: flex;
+  gap: 2rem;
+}
+
+.headerBottomButton {
+  width: 50%;
+  height: fit-content;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  background-color: #D9D9D9;
+  text-decoration: none;
+  color: black;
+  transition: 300ms ease;
+}
+
+.headerBottomButton:hover {
+  scale: 1.05;
+  transition: 300ms ease;
+}
+
+.headerBottomTitle {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.headerBottomDesc {
+  opacity: 0.5;
+}
+
+.chooseTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.chooseDesc {
+  opacity: 0.5;
+}
+
+.chooseCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.chooseCard {
+  background-color: #D9D9D9;
+  width: 40%;
+  max-width: 100%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+
+.chooseCardIcon {
+  width: 3rem;
+}
+
+.chooseCardTitle {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.armadaTitle {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.armadaCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.armadaCard {
+  background-color: #D9D9D9;
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.armadaImg {
+  width: 100%;
+}
+
+.armadaCardTitle {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.testimonialContainer {
+
+}
+
+.testimonialTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.testimonialCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.testimonialCard {
+  background-color: #D9D9D9;
+  width: 15rem;
+  height: fit-content;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.testimonialCardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.testimonialCardDesc {
+  opacity: 0.5;
+}
+
+@media (max-width:1024px) {
+  .chooseCard {
+    width: 100%;
+  }
+}
+
+@media (max-width:700px) {
+  .container {
+    padding: 0 2rem;
+    overflow-x: hidden;
+  }
+  .headerTitle {
+    font-size: 1.5rem;
+  }
+  .headerImgContainer {
+    display: none;
+  }
+  .headerText{
+    width: 100%;
+  }
+  .headerBottom {
+    flex-direction: column;
+  }
+  .headerBottomButton{
+    width: 100%;
+  }
+  .headerButton {
+    background-color: #700704;
+    padding: 0.85rem 1.5rem;
+    width: fit-content;
+    border-radius: 100px;
+    color: white;
+    transition: 300ms ease;
+    text-decoration: none;
+    font-size: 1;
+  }
+  .headerButtonP {
+    font-size: 0.85rem;
+  }
+}
