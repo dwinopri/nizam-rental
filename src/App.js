@@ -7,6 +7,8 @@ import armadaVeloz from "./homeAsset/armada/veloz.png"
 import armadaGranmax from "./homeAsset/armada/granmax.png"
 import armadaXenia from "./homeAsset/armada/xenia.png"
 import header from "./homeAsset/header.png"
+import armadaElfLong from "./homeAsset/armada/elf long.png"
+import armadaElf from "./homeAsset/armada/elf.png"
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
             setiap momen perjalanan menjadi pengalaman yang tak terlupakan.
           </p>
           <a
-            href="https://wa.me/628xxxx"
+            href="https://wa.me/+6282374773397"
             target="blank"
             className="headerButton"
           >
@@ -160,18 +162,133 @@ function App() {
         <p className="armadaTitle">Armada</p>
         <div className="armadaCardContainer">
           <div className="armadaCard">
-            <img src={armadaVeloz} className="armadaImg" />
-            <p className="armadaCardTitle">Avanza Veloz</p>
+            <a href="https://wa.me/+6282374773397" className="armadaA">
+              <img src={armadaVeloz} className="armadaImg" />
+              <p className="armadaCardTitle">Avanza Veloz</p>
+              <div className="armadaHarga">
+                <p>Tarif Sewa:</p>
+                <div className="hargaList">
+                  <ul>
+                    <li>
+                      <div className="list">
+                        <p className="durasi">12 Jam</p>
+                        <p className="harga">: 300 Ribu</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="list">
+                        <p className="durasi">24 Jam</p>
+                        <p className="harga">: 350 Ribu</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </a>
           </div>
 
           <div className="armadaCard">
+            <a href="https://wa.me/+6282374773397" className="armadaA">
             <img src={armadaGranmax} className="armadaImg" />
             <p className="armadaCardTitle">Suzuki Granmax</p>
+            <div className="armadaHarga">
+              <p>Tarif Sewa:</p>
+              <div className="hargaList">
+                <ul>
+                  <li>
+                    <div className="list">
+                      <p className="durasi">12 Jam</p>
+                      <p className="harga">: 300 Ribu</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list">
+                      <p className="durasi">24 Jam</p>
+                      <p className="harga">: 350 Ribu</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </a>
           </div>
 
           <div className="armadaCard">
+            <a href="https://wa.me/+6282374773397" className="armadaA">
             <img src={armadaXenia} className="armadaImg" />
             <p className="armadaCardTitle">Xenia</p>
+            <div className="armadaHarga">
+              <p>Tarif Sewa:</p>
+              <div className="hargaList">
+                <ul>
+                  <li>
+                    <div className="list">
+                      <p className="durasi">12 Jam</p>
+                      <p className="harga">: 300 Ribu</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list">
+                      <p className="durasi">24 Jam</p>
+                      <p className="harga">: 350 Ribu</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div className="armadaCard">
+            <a href="https://wa.me/+6282374773397" className="armadaA">
+              <img src={armadaElfLong} className="armadaImg" />
+              <p className="armadaCardTitle">Elf Long</p>
+              <div className="armadaHarga">
+                <p>Tarif Sewa:</p>
+                <div className="hargaList">
+                  <ul>
+                    <li>
+                      <div className="list">
+                        <p className="durasi">12 Jam</p>
+                        <p className="harga">: 300 Ribu</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="list">
+                        <p className="durasi">24 Jam</p>
+                        <p className="harga">: 350 Ribu</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="armadaCard">
+            <a href="https://wa.me/+6282374773397" className="armadaA">
+              <img src={armadaElf} className="armadaImg" />
+              <p className="armadaCardTitle">Elf</p>
+              <div className="armadaHarga">
+                <p>Tarif Sewa:</p>
+                <div className="hargaList">
+                  <ul>
+                    <li>
+                      <div className="list">
+                        <p className="durasi">12 Jam</p>
+                        <p className="harga">: 300 Ribu</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="list">
+                        <p className="durasi">24 Jam</p>
+                        <p className="harga">: 350 Ribu</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -181,45 +298,47 @@ function App() {
           <div className="testimonialCard">
             <p className="testimonialCardTitle">User 1</p>
             <p className="testimonialCardDesc">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-              atque et consequatur rem ex exercitationem in beatae sapiente
-              voluptatibus quas.
+              Layanan di Nizam rental car sangat profesional! Mobilnya bersih,
+              nyaman, dan sesuai deskripsi. Proses penyewaan cepat, dan stafnya
+              sangat ramah. Harga juga terjangkau. Sangat puas, pasti akan
+              kembali lagi.
             </p>
           </div>
 
           <div className="testimonialCard">
-            <p className="testimonialCardTitle">User 1</p>
+            <p className="testimonialCardTitle">User 2</p>
             <p className="testimonialCardDesc">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-              atque et consequatur rem ex exercitationem in beatae sapiente
-              voluptatibus quas.
+              Pengalaman pertama menyewa mobil di sini sangat berkesan. Kondisi
+              mobil sangat terawat, perjalanan jadi lebih nyaman. Customer
+              service juga sangat membantu, benar-benar memudahkan.
             </p>
           </div>
 
           <div className="testimonialCard">
-            <p className="testimonialCardTitle">User 1</p>
+            <p className="testimonialCardTitle">User 3</p>
             <p className="testimonialCardDesc">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-              atque et consequatur rem ex exercitationem in beatae sapiente
-              voluptatibus quas.
+              Terima kasih Nizam rental car untuk pelayanan yang luar biasa!
+              Armada lengkap, harga bersahabat, dan prosesnya sangat praktis.
+              Cocok untuk kebutuhan liburan maupun bisnis. Tidak mengecewakan.
             </p>
           </div>
 
           <div className="testimonialCard">
-            <p className="testimonialCardTitle">User 1</p>
+            <p className="testimonialCardTitle">User 4</p>
             <p className="testimonialCardDesc">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-              atque et consequatur rem ex exercitationem in beatae sapiente
-              voluptatibus quas.
+              Puas banget sewa mobil di Nizam rental car. Mobilnya irit bahan
+              bakar dan nyaman untuk perjalanan jauh. Proses pemesanan online
+              juga mudah. Ini rental mobil terbaik yang pernah saya coba
             </p>
           </div>
 
           <div className="testimonialCard">
-            <p className="testimonialCardTitle">User 1</p>
+            <p className="testimonialCardTitle">User 5</p>
             <p className="testimonialCardDesc">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-              atque et consequatur rem ex exercitationem in beatae sapiente
-              voluptatibus quas.
+              Sangat direkomendasikan! Mobilnya selalu bersih dan wangi,
+              pelayanan ramah, serta harga transparan tanpa biaya tambahan.
+              Liburan keluarga jadi lebih menyenangkan berkat layanan dari Nizam
+              Rental car
             </p>
           </div>
         </div>

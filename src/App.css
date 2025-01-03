@@ -150,6 +150,19 @@
   justify-content: center;
 }
 
+.armadaCard:hover{
+  background-color: #D9D9D9;
+  transform: scale(1.1);
+}
+
+.armadaA{
+  color: black;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+
+
 .armadaImg {
   width: 100%;
 }
@@ -157,7 +170,24 @@
 .armadaCardTitle {
   font-size: 2rem;
   text-align: center;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+}
+
+.armadaHarga {
+  /* margin-top: 2rem; */
+  width: 80%;
+  padding-inline: 1rem;
+}
+
+
+.hargaList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .testimonialContainer {
